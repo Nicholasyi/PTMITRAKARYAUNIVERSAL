@@ -125,9 +125,3 @@ Menguji alur bisnis end-to-end dengan koneksi ke database testing (`test_ptmitra
 | `PurchaseTest.php` | Proses pembelian dari supplier, penambahan stok |
 | `InventoryTest.php` | Manajemen stok produk di gudang |
 | `ReturnTest.php` | Proses retur produk dan penyesuaian stok |
-
-# Build Status :
-[![Automated Testing (Unit & Integration)](https://github.com/Nicholasyi/ptmitrakarya/actions/workflows/test.yml/badge.svg)](https://github.com/Nicholasyi/ptmitrakarya/actions/workflows/test.yml)
-
-# Test Coverage :
-[![codecov](https://codecov.io/gh/Nicholasyi/ptmitrakarya/graph/badge.svg?token=0CL443N56Y)](https://codecov.io/gh/Nicholasyi/ptmitrakarya)
