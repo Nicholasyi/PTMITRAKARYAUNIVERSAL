@@ -1,0 +1,14 @@
+{   
+"name" :  "nicholasyi/pt-mitra-karya-universal",
+"autoload": {
+    "psr-4": {
+        "Nicholasyi\\PTMitraKaryaUniversal\\": "src/"
+    }
+},
+"require-dev": {
+        "phpunit/phpunit": "^13.0"
+    },
+"scripts": {
+        "test" : "phpunit"
+ }
+}
