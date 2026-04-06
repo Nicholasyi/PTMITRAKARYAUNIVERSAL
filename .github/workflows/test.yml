@@ -54,7 +54,6 @@ jobs:
 
     - name: Run Integration Tests
       run: |
-        # Menambahkan --coverage-clover agar bisa dibaca oleh Codecov
         vendor/bin/phpunit --testsuite Integration --coverage-text --coverage-clover coverage-integration.xml --coverage-html tests/coverage-html
       env:
         DB_HOST: 127.0.0.1
@@ -62,10 +61,4 @@ jobs:
         DB_USER: root
         DB_PASS: root
 
-    - name: Upload Coverage to Codecov
-      uses: codecov/codecov-action@v4
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        files: ./coverage-unit.xml,./coverage-integration.xml
-        fail_ci_if_error: true
     
