@@ -61,4 +61,10 @@ jobs:
         DB_USER: root
         DB_PASS: root
 
+    - name: Upload Coverage Report 
+      uses: actions/upload-artifact@v4
+      with:
+        name: php-coverage-report
+        path: coverage/
+
     
